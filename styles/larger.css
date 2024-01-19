@@ -1,0 +1,22 @@
+@media screen and (min-width: 500px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px;
+        margin: 0 auto;
+        border: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .sections {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+    .card {
+        margin: 20px;
+        padding: 5px;
+    }
+    .list-assignments {
+        padding-left: 0px;
+    }
+}
