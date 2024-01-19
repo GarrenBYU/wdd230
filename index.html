@@ -5,10 +5,7 @@
         <meta charset="utf-8" />
         <meta name="description" content="WDD230 - Web Frontend Development Garren Meisman course assignment portal" />
         <!--css style sheets-->
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/index.css" />
-        <link rel="stylesheet" href="styles/medium.css" />
-        <link rel="stylesheet" href="styles/large.css" />
+        <link rel="stylesheet" href="styles/base.css" />
 
         <!--Google API fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +19,7 @@
                 <div class="header">
                     <div class="name-photo">
                         <img
-                        src="pictures/photo-of-me.jpg"
+                        src="images/photo-of-me.jpg"
                         alt="Photo of me"
                         />
                     </div>
@@ -30,44 +27,43 @@
                 </div>
             </header>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
-                    <li><a href="chamber/">Chamber</a></li>
-                    <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
-                    <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng">Scripture</a></li>
-                </ul>
+                <a href="#">Home</a>
+                <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+                <a href="chamber/">Chamber</a>
+                <a href="https://www.byui.edu/">BYU-Idaho</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng">Scripture</a>
             </nav>
             <main>
             <h2 class="title">WDD 230: Web Frontend Development</h1>
             <section class="card">
                 <h3>Learning Activities</h3>
                 <ul class="list-assignments">
-                    <li>Lesson 02: 
+                    <li>01: 
                         <a href="fillThis">Title</a></li>
-                    <li>Lesson 03: 
+                    <li>02: 
                         <a href="fillThis">Title</a></li>
-                    <li>Lesson 04: 
+                    <li>03: 
+                        <a href="fillThis">Title</a></li>
+                    <li>04: 
                         <a href="fillThis">Title</a></li>
                     </li>
-                    <li>Lesson 05: 
+                    <li>05: 
                         <a href="fillThis">Title</a></li>
-                    <li>Lesson 06: 
+                    <li>06: 
                         <a href="fillThis">Title</a></li>
-                    <li>Lesson 07: 
+                    <li>07: 
                         <a href="fillThis">Title</a></li>
-                    <li>Lesson 08: 
+                    <li>08: 
                         <a href="fillThis">Title</a></li>
-                    <li>Lesson 09: 
+                    <li>09: 
                         <a href="fillThis">Title</a></li>
-                    <li>Lesson 10: 
-                        <a href="fillThis">Title</a></li>
-                    <li>Lesson 11: 
+                    <li>10: 
                         <a href="fillThis">Title</a></li>
                 </ul>
             </section>
             <section class="card">
                 <h3>Information</h3>
+                <p>Provo, Utah</p>
                 <p>Weather: Snowy 36° F ☃️</p>
                 <p>Number of Visits: 4</p>
             </section>
@@ -77,6 +73,6 @@
             <p id="lastModified">This will be added by JavaScript</p>
         </footer>
 
-        <script src="scripts/year-and-last-modified.js"></script>
+        <script src="scripts/getdates.js"></script>
     </body>
 </html>
