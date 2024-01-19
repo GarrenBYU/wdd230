@@ -1,6 +1,12 @@
 /* Fonts from Google Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+html{
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    padding: .5rem;
+}
 header{
     background-color: darkgreen;
     display:grid;
@@ -30,7 +36,6 @@ nav a{
 
 main{
     display:grid;
-    text-align: center;
     grid-template-rows: 1fr;
 }
 
@@ -66,7 +71,17 @@ footer{
     font-family: "Merriweather", sans-serif;
 }
 p{
-font-family: sans-serif;}
+    font-family: sans-serif;
+    text-align: center;
+}
 img{
+    padding: 0px;
     max-width: 100%;
+}
+.card{
+    border: 1px solid;
+}
+h3{
+    text-align: center;
+    margin: 0px;
 }
