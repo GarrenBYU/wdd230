@@ -40,6 +40,10 @@ main{
     grid-template-rows: 1fr;
 }
 
+h2{
+    text-align: center;
+}
+
 h3{
     background-color: greenyellow;
 }
