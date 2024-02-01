@@ -1,5 +1,6 @@
+//Last Modified Date DOM
 setElementText("#lastModified", "Last modified: " + (new Date(document.lastModified).toLocaleString('en-us')))
-//still getting that error
+//Copywrite Year
 setElementText("#copywrite-year", (new Date()).getFullYear());
 
 function setElementText(element, text){
