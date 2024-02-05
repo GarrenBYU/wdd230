@@ -1,0 +1,15 @@
+p, h1, h2, h3, h4, h5{
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Montserrat&display=swap');
+
+h1, h2, h3, h4, h5{
+    font-family: 'Alkalami', serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.responsive li {
+    display: block;
+}
