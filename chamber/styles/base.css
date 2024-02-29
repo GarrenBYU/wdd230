@@ -13,3 +13,9 @@ p{
 .responsive li {
     display: block;
 }
+.site-header{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    height: 100px;
+}
